@@ -1,0 +1,38 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    grid-row-gap: 3rem;
+}
+.card {
+    padding: 0.5rem;
+    width: 210px;
+    cursor: pointer;
+}
+.book-photo {
+    max-width: 150px;
+    max-height: 220px;
+    img {
+        width: 145px;
+        height: 200px;
+    }
+    padding-bottom: 1rem;
+}
+.book-info {
+    width: 145px;
+    padding: 0.5rem 0;
+    font-family: Helvetica, sans-serif;
+
+    .book-title {
+        font-size: 0.75rem;
+        font-weight: 700;
+        padding-bottom: 1rem;
+    }
+    .book-Authors {
+        font-size: 0.85rem;
+        font-weight: 100;
+    }
+    .book-format {
+        font-size: 0.85rem;
+        font-weight: 100;
+    }
+}
